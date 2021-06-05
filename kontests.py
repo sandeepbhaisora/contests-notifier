@@ -19,7 +19,6 @@ n.set_urgency(notify2.URGENCY_NORMAL)
 
 #checking if network connection is available
 while not is_connected:
-    print('test')
     if(iterations > 12):
         break
     try:
@@ -33,7 +32,7 @@ while not is_connected:
         time.sleep(5)
 
 if is_connected:
-    print("got connection fetc data ...")
+    print("got connection fetching data ...")
     try:
         response = requests.get(f'{site_url}/sites')
 #lists of all the sites

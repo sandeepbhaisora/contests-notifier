@@ -15,4 +15,6 @@
     for linux systems user your *autostart.sh* file and put
     `python {path to script}> &`
 
+## Screenshot
 
+![screenshot](https://github.com/sandeepbhaisora/contests-notifier/blob/main/20210605122544.png)

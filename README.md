@@ -7,7 +7,7 @@
 3. put the script in system autostart file
   ex:
     for linux systems user your *autostart.sh* file and put
-    `python {path to scriptmin:gpg_key, delete_repo, gist, repo, user, writ}> &`
+    `python {path to script}> &`
 
 ## About
 - This script uses [Kontests.net](https://kontests.net) APIs to fetch data.
